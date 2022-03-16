@@ -27,6 +27,6 @@ ggsave(filename = "output/result.png",
        height = 10.5, width = 14.8,
        units = "cm")
 
-sink(file = "output/r-session-info.txt")
+sink(file = "output/r-session-info-make-plot.txt")
 sessionInfo()
 sink()
