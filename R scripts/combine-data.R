@@ -52,6 +52,3 @@ write.table(x = plot_df,
             sep = ",",
             row.names = FALSE)
 
-sink(file = "output/r-session-info-combine-data.txt")
-sessionInfo()
-sink()
